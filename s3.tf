@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "nus-iss-equeue-terraform"
-    key    = "lambda/listOfClinics/tfstate"
+    key    = "lambda/listOfBranchesMap/tfstate"
     region = "us-east-1"
   }
 }
